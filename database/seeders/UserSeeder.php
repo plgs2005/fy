@@ -1,6 +1,10 @@
 <?php
 
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class UserSeeder extends Seeder
 {
@@ -141,7 +145,7 @@ class UserSeeder extends Seeder
                 'status'=>'get_initial_data',
             ]
         );
-        
+
 
         //Creates Brand1 user with stripe customer account linked and with cards saved on account
         DB::table('users')->insert(

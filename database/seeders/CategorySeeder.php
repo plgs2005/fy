@@ -1,19 +1,19 @@
 <?php
 
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-
-use JeroenZwart\CsvSeeder\CsvSeeder;
 use Illuminate\Support\Facades\DB;
+use JeroenZwart\CsvSeeder\CsvSeeder;
 
-class DadosSeeder extends CsvSeeder
+class UsersTableSeeder extends CsvSeeder
 {
     public function __construct()
     {
-        $this->file = '/database/seeds/csvs/dados.csv';
-        // $this->mapping = ['id', 'cidade_id', 'desc_bairro'];
-        // $this->header = false;
-        $this->delimiter = ',';
+        $this->file = '/database/seeds/csvs/users.csv';
     }
+
     /**
      * Run the database seeds.
      *

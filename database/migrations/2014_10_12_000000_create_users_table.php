@@ -36,6 +36,7 @@ class CreateUsersTable extends Migration
             $table->boolean('profile_completed')->default(0);
             $table->enum('active', ['Y', 'N'])->default('Y');
             $table->enum('receive_products', ['Y', 'N'])->default('N');
+            $table->string('time_zone')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

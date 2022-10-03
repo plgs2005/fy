@@ -10,7 +10,7 @@ return [
     'min_followers' =>50,
     //Max post age in days
     'max_post_age' =>500,
-    
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -174,6 +174,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
         Riverskies\Laravel\MobileDetect\MobileDetectServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Package Service Providers...
