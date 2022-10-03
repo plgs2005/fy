@@ -4,12 +4,20 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
 
-Route::get(
+/* Route::get(
     '/',
     function () {
         return view('welcome');
     }
-);
+); */
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/form', function () {
+    return view('form');
+});
 
 Route::get('/conversion', function () {
     return view('app/conversion');
@@ -63,7 +71,7 @@ Route::post('/brand-complete-profile', 'UserController@storeCompleteProfileBrand
 Route::group(
     ['middleware' => ['role:Brand', 'auth', 'profileCompleted']],
     function () {
-        
+
         // Route::get('/accept-influencer/{campaignId}', 'CampaignController@brandAcceptInfluencer')->name('campaign.accept.influencer');
         // Route::post('/store-accept-influencer', 'CampaignController@brandStoreAcceptInfluencer')->name('campaign.store.accept.influencer');
 
@@ -112,11 +120,11 @@ Route::post('/store-fb-page', 'UserController@storeFbPage')->name('storeFbPage')
 Route::group(
     ['middleware' => ['role:Influencer', 'auth', 'XssSanitizer', 'profileCompleted']],
     function () {
-       
+
         // Route::get('/accept-campaign', 'CampaignController@influenceracceptCampaign')->name('campaign.influencer.accept');
         // Route::post('/store-accept-campaign', 'CampaignController@influencerStoreacceptCampaign')->name('campaign.store.accept');
         Route::get('/campaign-posts/{campaignId}', 'CampaignController@CampaignPosts')->name('campaign.posts');
-        
+
         Route::get('/influencer-analytics', 'CampaignController@influencerCampaignAnalytics')->name('influencer.analytics');
 
         //Rotas influencer novo front-end
@@ -143,8 +151,8 @@ Route::group(
         Route::delete('/influencer-destroy-categories/{id}', 'UserController@destroyInfluencerCategories')->name('influencer.destroy.categories');
         Route::put('/influencer-profile-update', 'UserController@influencerProfileUpdate')->name('influencer.profile.update');
         Route::put('/influencer-update-measurements', 'UserController@updateMeasurements')->name('influencer.update.measurements');
-        Route::get('/giftOnly', 'UserController@giftOnlyCampaigns'); 
-        Route::post('/gift-only-switch', 'UserController@storeGiftOnlyCampaigns'); 
+        Route::get('/giftOnly', 'UserController@giftOnlyCampaigns');
+        Route::post('/gift-only-switch', 'UserController@storeGiftOnlyCampaigns');
     }
 );
 

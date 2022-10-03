@@ -15,15 +15,15 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        //Creates Raphael Voltani User linked with facebook/instagram and stripe account linked and active
+        //Creates Pedro Lucas User linked with facebook/instagram and stripe account linked and active
         DB::table('users')->insert(
             [
             'id' => 1,
-            'name' => 'Raphael',
-            'email'=>'raphaelvoltani@gmail.com',
+            'name' => 'Pedro',
+            'email'=>'plgs2005@gmail.com',
             'email_verified_at'=>'2020-10-07 14:04:12',
             'password'=>'$2y$10$9idQgxco.8hYLrMIZzK9n.TdqWzMu7FcCUJ13ka4Updc5Z6mmbn6G',//=123
-            'phone'=>'+55 41 998816440',
+            'phone'=>'+55 11 950903204',
             'stripe_acc'=>'acct_1IEbK2QWfrgwOZdZ',
             'profile_completed'=>1,
             ]
@@ -207,7 +207,7 @@ class UserSeeder extends Seeder
             ]
         );
 
-        //Creates raphael voltani 2 user
+        //Creates Pedro Lucas 2 user
         DB::table('users')->insert(
             [
             'id' => 6,

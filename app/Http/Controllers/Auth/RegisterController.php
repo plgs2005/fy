@@ -85,7 +85,7 @@ class RegisterController extends Controller
 
     /**
      * Create a new user instance after a valid registration.
-     * 
+     *
      * @param  array $data
      * @return \App\User
      */
@@ -122,9 +122,10 @@ class RegisterController extends Controller
 
     public function registerBrand(CreateUserBrand $request)
     {
+       // dd($request->all());
         $validated = $request->validated();
 
-        event(new Registered($user = $this->createBrand($request->all())));
+       new Registered($user = $this->createBrand($request->all()));
 
         $this->guard()->login($user);
 
@@ -153,7 +154,7 @@ class RegisterController extends Controller
                 'time_zone' => $timezone,
             ]
         );
-     
+
         $user->assignRole('Brand');
 
         return $user;
@@ -181,7 +182,7 @@ class RegisterController extends Controller
                 'password' => Hash::make($request->input('password')),
                 'name' => $request->input('first_name'),
                 'phone' => $request->input('phone'),
-                'time_zone' => 'America/Sao_Paulo,' 
+                'time_zone' => 'America/Sao_Paulo,'
             ];
 
             $influencerAddressData = [
