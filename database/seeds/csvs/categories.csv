@@ -1,0 +1,180 @@
+"id","name","level","child_of","icon_path","require_measurements","created_at","updated_at"
+"1","Fashion","1",NULL,"svgexport-1","Y",NULL,NULL
+"2","Personal Care","1",NULL,"svgexport-2","N",NULL,NULL
+"3","Beauty","1",NULL,"svgexport-3","N",NULL,NULL
+"4","Décor & Furniture","1",NULL,"svgexport-4","N",NULL,NULL
+"5","Education","1",NULL,"svgexport-5","N",NULL,NULL
+"6","Travel","1",NULL,"svgexport-6","N",NULL,NULL
+"7","Art & Media","1",NULL,"svgexport-7","N",NULL,NULL
+"8","Sports & Outdoor Activities","1",NULL,"svgexport-8","N",NULL,NULL
+"9","Gaming & Toys","1",NULL,"svgexport-9","N",NULL,NULL
+"10","Food & Beverage","1",NULL,"svgexport-10","N",NULL,NULL
+"11","Entertainment","1",NULL,"svgexport-11","N",NULL,NULL
+"12","Electronics","1",NULL,"svgexport-12","N",NULL,NULL
+"13","Auto/Boat/Plane","1",NULL,"svgexport-13","N",NULL,NULL
+"14","Books/Reading","1",NULL,"svgexport-14","N",NULL,NULL
+"15","Financial Services","1",NULL,"svgexport-15","N",NULL,NULL
+"16","Real Estate","1",NULL,"svgexport-16","N",NULL,NULL
+"17","Software","1",NULL,"svgexport-17","N",NULL,NULL
+"18","Pets","1",NULL,"svgexport-18","N",NULL,NULL
+"19","Mens","2","1",NULL,"Y",NULL,NULL
+"20","Womens","2","1",NULL,"Y",NULL,NULL
+"21","Maternity","2","1",NULL,"Y",NULL,NULL
+"22","Accessories","2","1",NULL,"Y",NULL,NULL
+"23","Footware","2","1",NULL,"Y",NULL,NULL
+"24","Jewelry","2","1",NULL,"Y",NULL,NULL
+"25","Baby/Infant","2","1",NULL,"Y",NULL,NULL
+"26","Lingerie","2","1",NULL,"Y",NULL,NULL
+"27","Plus-size","2","1",NULL,"Y",NULL,NULL
+"28","Athletic","2","1",NULL,"Y",NULL,NULL
+"29","Big and Tall","2","1",NULL,"Y",NULL,NULL
+"30","Costumes","2","1",NULL,"Y",NULL,NULL
+"31","Parfumes","2","3",NULL,"N",NULL,NULL
+"32","Cosmetics","2","3",NULL,"N",NULL,NULL
+"33","Make up","2","3",NULL,"N",NULL,NULL
+"34","Vacation Travel","2","6",NULL,"N",NULL,NULL
+"35","Luggage","2","6",NULL,"N",NULL,NULL
+"36","Accessories","2","6",NULL,"N",NULL,NULL
+"37","Tours","2","6",NULL,"N",NULL,NULL
+"38","Airline companies","2","6",NULL,"N",NULL,NULL
+"39","Luxury Hotels","2","6",NULL,"N",NULL,NULL
+"40","Hotels","2","6",NULL,"N",NULL,NULL
+"41","Bed & Breakfast","2","6",NULL,"N",NULL,NULL
+"42","Art","2","7",NULL,"N",NULL,NULL
+"43","Photography","2","7",NULL,"N",NULL,NULL
+"44","Music","2","7",NULL,"N",NULL,NULL
+"45","Music Instruments","2","7",NULL,"N",NULL,NULL
+"46","Art Supplies","2","7",NULL,"N",NULL,NULL
+"47","Painting","2","7",NULL,"N",NULL,NULL
+"48","Posters/Prints","2","7",NULL,"N",NULL,NULL
+"49","Theatre","2","7",NULL,"N",NULL,NULL
+"50","Performance","2","7",NULL,"N",NULL,NULL
+"51","Dance","2","7",NULL,"N",NULL,NULL
+"52","Accessories","2","8",NULL,"N",NULL,NULL
+"53","Auto","2","8",NULL,"N",NULL,NULL
+"54","Outdoors/Camping","2","8",NULL,"N",NULL,NULL
+"55","Parlor/Backyard Games","2","8",NULL,"N",NULL,NULL
+"56","Baseball/Softball","2","8",NULL,"N",NULL,NULL
+"57","Cricket","2","8",NULL,"N",NULL,NULL
+"58","Billiards","2","8",NULL,"N",NULL,NULL
+"59","Boating","2","8",NULL,"N",NULL,NULL
+"60","Body Building/Fitness","2","8",NULL,"N",NULL,NULL
+"61","Bowling","2","8",NULL,"N",NULL,NULL
+"62","Boxing","2","8",NULL,"N",NULL,NULL
+"63","Canoeing","2","8",NULL,"N",NULL,NULL
+"64","Climbing/Mountaineering","2","8",NULL,"N",NULL,NULL
+"65","Cycling","2","8",NULL,"N",NULL,NULL
+"66","Diving","2","8",NULL,"N",NULL,NULL
+"67","Field Hockey","2","8",NULL,"N",NULL,NULL
+"68","Skating","2","8",NULL,"N",NULL,NULL
+"69","Fishing","2","8",NULL,"N",NULL,NULL
+"70","Football","2","8",NULL,"N",NULL,NULL
+"71","Frisbee","2","8",NULL,"N",NULL,NULL
+"72","Golf","2","8",NULL,"N",NULL,NULL
+"73","Gymnastics","2","8",NULL,"N",NULL,NULL
+"74","Hockey","2","8",NULL,"N",NULL,NULL
+"75","Horses","2","8",NULL,"N",NULL,NULL
+"76","Hunting","2","8",NULL,"N",NULL,NULL
+"77","In-line Skating","2","8",NULL,"N",NULL,NULL
+"78","Kayaking","2","8",NULL,"N",NULL,NULL
+"79","Martial Arts","2","8",NULL,"N",NULL,NULL
+"80","Running","2","8",NULL,"N",NULL,NULL
+"81","Skateboards","2","8",NULL,"N",NULL,NULL
+"82","Ski/Snowboard","2","8",NULL,"N",NULL,NULL
+"83","Soccer","2","8",NULL,"N",NULL,NULL
+"84","Surfing","2","8",NULL,"N",NULL,NULL
+"85","Tennis","2","8",NULL,"N",NULL,NULL
+"86","Teamware / Logo","2","8",NULL,"N",NULL,NULL
+"87","Volleyball","2","8",NULL,"N",NULL,NULL
+"88","Wrestling","2","8",NULL,"N",NULL,NULL
+"89","Swimming","2","8",NULL,"N",NULL,NULL
+"90","Basketball","2","8",NULL,"N",NULL,NULL
+"91","Action","2","9",NULL,"N",NULL,NULL
+"92","Animals","2","9",NULL,"N",NULL,NULL
+"93","Baby/Infant","2","9",NULL,"N",NULL,NULL
+"94","Board Games","2","9",NULL,"N",NULL,NULL
+"95","Card/Casino","2","9",NULL,"N",NULL,NULL
+"96","Electronic","2","9",NULL,"N",NULL,NULL
+"97","Educational","2","9",NULL,"N",NULL,NULL
+"98","Magic","2","9",NULL,"N",NULL,NULL
+"99","Musical","2","9",NULL,"N",NULL,NULL
+"100","Outdoor","2","9",NULL,"N",NULL,NULL
+"101","Video","2","9",NULL,"N",NULL,NULL
+"102","Baked Goods","2","10",NULL,"N",NULL,NULL
+"103","Beverages","2","10",NULL,"N",NULL,NULL
+"104","Chocolate","2","10",NULL,"N",NULL,NULL
+"105","Cheese/Condiments","2","10",NULL,"N",NULL,NULL
+"106","Diet","2","10",NULL,"N",NULL,NULL
+"107","Gifts/Gift Baskets","2","10",NULL,"N",NULL,NULL
+"108","Nuts","2","10",NULL,"N",NULL,NULL
+"109","Cookies/Desserts","2","10",NULL,"N",NULL,NULL
+"110","Organic","2","10",NULL,"N",NULL,NULL
+"111","Meatless meat","2","10",NULL,"N",NULL,NULL
+"112","Gourmet","2","10",NULL,"N",NULL,NULL
+"113","Meals/Complete Dishes","2","10",NULL,"N",NULL,NULL
+"114","Appetizers","2","10",NULL,"N",NULL,NULL
+"115","Soups","2","10",NULL,"N",NULL,NULL
+"116","Cigars","2","",NULL,"N",NULL,NULL
+"117","Cigarettes","2","",NULL,"N",NULL,NULL
+"118","Pipe","2","",NULL,"N",NULL,NULL
+"119","Electronic Cigarettes","2","",NULL,"N",NULL,NULL
+"120","Cinema","2","11",NULL,"N",NULL,NULL
+"121","Concerts","2","11",NULL,"N",NULL,NULL
+"122","Shows","2","11",NULL,"N",NULL,NULL
+"123","Cell Phones","2","12",NULL,"N",NULL,NULL
+"124","Camera & Photo","2","12",NULL,"N",NULL,NULL
+"125","Wireless","2","12",NULL,"N",NULL,NULL
+"126","TV & Video","2","12",NULL,"N",NULL,NULL
+"127","Audio & Home Theater.","2","12",NULL,"N",NULL,NULL
+"128","Car Electronics & GPS","2","12",NULL,"N",NULL,NULL
+"129","Portable Audio","2","12",NULL,"N",NULL,NULL
+"130","Headphones/Earphones","2","12",NULL,"N",NULL,NULL
+"131","Office Electronics","2","12",NULL,"N",NULL,NULL
+"132","Musical Instruments","2","12",NULL,"N",NULL,NULL
+"133","Computer & Accessories","2","12",NULL,"N",NULL,NULL
+"134","Boats","2","13",NULL,"N",NULL,NULL
+"135","Cars","2","13",NULL,"N",NULL,NULL
+"136","Motorcycles","2","13",NULL,"N",NULL,NULL
+"137","Planes","2","13",NULL,"N",NULL,NULL
+"138","Car Audio","2","13",NULL,"N",NULL,NULL
+"139","Cleaning/Care","2","13",NULL,"N",NULL,NULL
+"140","Repair","2","13",NULL,"N",NULL,NULL
+"141","Parts","2","13",NULL,"N",NULL,NULL
+"142","Accessories","2","13",NULL,"N",NULL,NULL
+"143","Art","2","14",NULL,"N",NULL,NULL
+"144","Careers","2","14",NULL,"N",NULL,NULL
+"145","Business","2","14",NULL,"N",NULL,NULL
+"146","Childrens","2","14",NULL,"N",NULL,NULL
+"147","Computers","2","14",NULL,"N",NULL,NULL
+"148","Crafts/Hobbies","2","14",NULL,"N",NULL,NULL
+"149","Education","2","14",NULL,"N",NULL,NULL
+"150","Engineering","2","14",NULL,"N",NULL,NULL
+"151","Gifts","2","14",NULL,"N",NULL,NULL
+"152","Health","2","14",NULL,"N",NULL,NULL
+"153","History","2","14",NULL,"N",NULL,NULL
+"154","Fiction","2","14",NULL,"N",NULL,NULL
+"155","Law","2","14",NULL,"N",NULL,NULL
+"156","Magazines","2","14",NULL,"N",NULL,NULL
+"157","Financial","2","14",NULL,"N",NULL,NULL
+"158","Medical","2","14",NULL,"N",NULL,NULL
+"159","Office","2","14",NULL,"N",NULL,NULL
+"160","Real Estate","2","14",NULL,"N",NULL,NULL
+"161","Religious","2","14",NULL,"N",NULL,NULL
+"162","Science/Nature","2","14",NULL,"N",NULL,NULL
+"163","Business","2","5",NULL,"N",NULL,NULL
+"164","Engineering (create subcategories)","2","5",NULL,"N",NULL,NULL
+"165","Universities","2","5",NULL,"N",NULL,NULL
+"166","Schools","2","5",NULL,"N",NULL,NULL
+"167","Online courses","2","5",NULL,"N",NULL,NULL
+"168","Workshops","2","5",NULL,"N",NULL,NULL
+"169","Real Estate","2","5",NULL,"N",NULL,NULL
+"170","Languages","2","5",NULL,"N",NULL,NULL
+"171","Design (create subcategories)","2","5",NULL,"N",NULL,NULL
+"172","Career","2","5",NULL,"N",NULL,NULL
+"173","Psychology","2","5",NULL,"N",NULL,NULL
+"174","Cooking","2","5",NULL,"N",NULL,NULL
+"175","Arts","2","5",NULL,"N",NULL,NULL
+"176","Animal Care","2","5",NULL,"N",NULL,NULL
+"177","Drones","2","5",NULL,"N",NULL,NULL
+"178","Games","2","5",NULL,"N",NULL,NULL
+"179","Gardening","2","5",NULL,"N",NULL,NULL
