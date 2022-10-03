@@ -1,2 +1,2 @@
-# influencer-project
-Projeto ainda sem nome definido - Influencer Project
+# fy-project
+Projeto ainda sem nome definido - fy Project
